@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,400;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Exo', sans-serif;
+
+}
+.container{
+    max-width: 90%;
+    margin: auto;
+    /* border: 2px solid; */
+}
+.login_bar{
+    background-color: rgb(65,96,187);
+}
+.login_bar .container{
+    display: flex;
+
+}
+.logo{
+    width: 30%;
+    height: 70px;
+    /* border: 2px solid;    */
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+.logo i{
+    font-size: 40px;
+    color: rgb(255, 255, 255);  
+}
+.input_box{
+  display: flex;
+  margin-left: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 575px;
+  
+
+}
+.email_box{
+    margin-bottom: 21px;
+    margin-right: 10px;
+}
+.password_box{
+    margin-right: 10px;
+}
+.password_box a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 2px 0px;
+}
+.input_box button{
+    background-color: rgb(65,96,187);
+    color: white;
+    padding: 4px;
+   border-color: white;
+   border-radius: 5px;
+}
+.input_box label {
+    color: white;
+}
+.section_2{
+    width: 100%;
+    height: 90vh;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(195,205,234,1) 100%);
+    /* border: 2px solid; */
+    /* display: flex; */
+}
+.section_2 h1{
+    font-size: 20px;
+    margin-top: 10px;
+}.section_2 h1{
+    color:  rgb(65,96,187);
+}
+.section_2 .slogan{
+    font-size: 22px;
+}
+.image{
+    width: 50%;
+    /* height:330px; */
+    margin-top: 15px;
+    /* background-image: url(./image/s.png); */
+    /* overflow: hidden; */
+    /* background-size:cover; */
+    /* border: 2px solid; */
+    float: left;
+    
+}
+img{
+    width: 800px;
+}
+.form{
+    width: 45%;
+    height:500px;
+
+    /* border: 2px solid; */
+    float: right;
+    
+}
+.form h1, h3{
+    text-align: center;
+}
+.fast_last input{
+    padding: 5px 10px;
+    width: 45%;
+    height: 40px;
+    border-radius: 5px;
+    border-width: 0.5px;
+    margin: 10px;
+
+    
+}
+.email_pass input{
+    padding: 5px 10px;
+    width: 45%;
+    height: 40px;
+    margin: 10px;
+    border-radius: 5px;
+    border-width: 0.5px;
+
+}
+.email_pass .mobile_or_email{
+    width: 93.5%;
+    height: 40px;
+
+}
+.alart{
+    display: inline-block;
+    margin-left: 10px;
+    color: red;
+    cursor: pointer;
+}
+.MF label{
+    font-size: 20px;
+}
+.form button{
+    padding: 5px 15px;
+    background-color: rgb(65,96,187);
+    color: white;
+    border-radius: 5px;
+}
+.MF{
+    margin-top: 20px;
+}
+.form p{
+    margin-top:10px;
+}
+.form button{
+    border-width:0.5px;
+    border-color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
